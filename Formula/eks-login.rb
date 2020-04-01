@@ -2,16 +2,16 @@
 class EksLogin < Formula
   desc "CLI to automate the EKS login process using STS credentials created by vault."
   homepage "https://github.com/luizm/eks-login"
-  version "1.0.0"
+  version "1.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/luizm/eks-login/releases/download/v1.0.0/eks-login_1.0.0_darwin_amd64.tar.gz"
-    sha256 "9758b0d13928ab665cf94832c828e5ce5789b01263ab0a45a503158c8e026d59"
+    url "https://github.com/luizm/eks-login/releases/download/v1.0.1/eks-login_1.0.1_darwin_amd64.tar.gz"
+    sha256 "eb4485cb27085a43fa6aee67942b826d3743e166d285766d8d6b7c5ea21ea435"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/luizm/eks-login/releases/download/v1.0.0/eks-login_1.0.0_linux_amd64.tar.gz"
-      sha256 "62b4d4c116a1db573b5c9e65ee0c7aabe80186206c8cc4f0cccb03f8d906480f"
+      url "https://github.com/luizm/eks-login/releases/download/v1.0.1/eks-login_1.0.1_linux_amd64.tar.gz"
+      sha256 "62e069db3067fdf2fa9d635b8808f6b6ae2933a721ef283825ae150ded7469da"
     end
   end
 
