@@ -2,16 +2,16 @@
 class AwsWhois < Formula
   desc "CLI to find which aws resource are using a specific IP"
   homepage "https://github.com/luizm/aws-whois"
-  version "1.0.1"
+  version "1.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/luizm/aws-whois/releases/download/v1.0.1/aws-whois_1.0.1_darwin_amd64.tar.gz"
-    sha256 "13343af918aa4e9876bd7e8e028f94d6ee28e785e3365ed58a1815d502623c1b"
+    url "https://github.com/luizm/aws-whois/releases/download/v1.0.2/aws-whois_1.0.2_darwin_amd64.tar.gz"
+    sha256 "001ed9bdbd09dae4759c9a3796e30498af99fbbcbdcde7ada16a130d6972a0c0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/luizm/aws-whois/releases/download/v1.0.1/aws-whois_1.0.1_linux_amd64.tar.gz"
-      sha256 "eafe8440382b67390dda665581d3d830bdc80b63bc31a15d7b02c96a1f699a69"
+      url "https://github.com/luizm/aws-whois/releases/download/v1.0.2/aws-whois_1.0.2_linux_amd64.tar.gz"
+      sha256 "4d5c9a70284340ca43514fa2b1e0350e806a432b615bd194d448c13c3a1a57b3"
     end
   end
 
